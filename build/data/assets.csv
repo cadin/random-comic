@@ -1,0 +1,9 @@
+filename,focalArea,minWidth,minHeight,anchor,useHorizon,horizonMin,horizonMax
+arm1.png,"0,0,320,250",,,right,0,,
+cadin3.png,"0,0,429,429",,,bottom,1,310,1040
+donut1.png,,,,,1,25,80
+speechBubble1.png,,,,,0,,
+speechBubble5.png,,2,,,0,,
+undies1.png,,2,2,,0,,
+whiskey1.png,,,,,1,120,215
+whiskeyBottle1.png,,,2,,1,290,665
