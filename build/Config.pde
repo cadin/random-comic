@@ -30,10 +30,11 @@ class Config {
 
 	String imgSrcFolder = "600ppi";
 
-	float coordinateScale = 1.0;
-
 	boolean useSimpleFilename = false;
 	boolean autosave = false;
+	
+	
+	float coordinateScale = 1.0;
 
 	Config() {
 		// default config
