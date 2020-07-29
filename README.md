@@ -28,6 +28,19 @@ You can create and customize instances of `Config` to make it easier to switch b
 
 If you want panels larger than 4x4, you'll need to draw your own frames for them.
 
+## Troubleshooting
+
+#### Error: "mask() can only be used with an image that's the same size"
+This error occurs when running the project configured for a 2x display on 1x display.
+
+The easiest fix is to change line 14 in `build.pde` from  
+`Config CONFIG_FULL_RES = new Config(2, 600, 0.125, 0.24, "600ppi", false);`  
+to  
+`Config CONFIG_FULL_RES = new Config(1, 600, 0.125, 0.24, "600ppi", false);`
+
+The first argument for Config is the pixel density.
+See the [Config.pde](https://github.com/cadin/random-comic/blob/master/build/Config.pde) file for more configuration options.
+
 ## License
 
 This project is licensed under the Unlicense - see the [LICENSE.md](LICENSE.md) file for details.
