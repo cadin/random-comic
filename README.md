@@ -43,4 +43,4 @@ See the [Config.pde](https://github.com/cadin/random-comic/blob/master/build/Con
 
 ## License
 
-This project is licensed under the Unlicense - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the Unlicense - see the [LICENSE](LICENSE) file for details.
